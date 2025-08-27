@@ -53,7 +53,7 @@ class AddressService {
                 } catch (error) {
                 }
                 
-                // Fallback to basic prediction data
+
                 return {
                   id: prediction.place_id,
                   display: prediction.description,

@@ -50,7 +50,7 @@ class AuthService {
     })
   }
 
-  // Resend verification email - PUT request
+
   async resendVerificationEmail(email) {
     return httpClient.put(API_CONFIG.ENDPOINTS.AUTH.RESEND_VERIFICATION, { email })
   }
