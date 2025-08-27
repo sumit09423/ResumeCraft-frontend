@@ -122,7 +122,6 @@ function App() {
               </h1>
             </div>
             <nav className="hidden md:flex space-x-8">
-              <a href="#features" className="text-gray-600 hover:text-orange-500 font-medium transition-colors text-sm">Features</a>
             </nav>
             <div className="flex items-center space-x-4">
               {isAuthenticated || isAdmin ? (
